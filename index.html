@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+    </style>
+</head>
+<body>
+
+    <header>
+		<h1>My Portfolio</h1>
+        <nav>
+            <ul>
+                <li><a href="#hero">HOME</a></li>
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="hero" class="hero">
+		<img align="Right" border-radius: 10px; src="nyaw.jpg" alt="click here" height="650px" width="550px" />
+        <h1>HI! I'm JOSEPH  C. JASOLIN <br> JOSEPH C. Jasolin</h1>
+        <p>
+            As an IT student in DLL, I've dedicated myself in my coursework in programming languages like HTML, CSS, and JavaScript. I've been still studying in websites and applications, honing my skills through hands-on activities and projects. My dedication to learning and practical experience makes me a credible IT student and maybe a good developer from the future.</p>
+    </section>
+
+    <section id="about" class="about">
+        <h2>About Me</h2>
+        <img align="Right" border-radius: 10px; src="osep.png" alt="click here" height="400px" width="200px" />
+        <h3>     AS an IT student in DLL myeveryday life revolves around classes, coding, and constant learning.I wake up early to attend lectures, spend hours in labs learning codes, and study late into the night. Balancing assignments, projects, and exams is a challenge, but they persevere, driven by the goal of graduating. Despite the occasional struggle, my passion for technology fuels my determination to succeed in my studies and achieve my dreams.</h3>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>CONTACT </h2>
+         <form action="submit_form.php" method="post">
+            <label for="name">FULL NAME:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">MESSAGE HERE:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+            <button type="submit">SEND MESSAGE</button>
+        </form>
+    </section>
+
+	<footer>
+        <p>&copy;  CREATED BY: JOSEPH JASOLIN.</p>
+    </footer>
+
+</body>
+</html>
